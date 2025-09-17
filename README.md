@@ -4,8 +4,8 @@ Project Documentation – ex-Agri Optimizer
 Team: ex-Code
 Team Members:
 1. Ernest Edem Dzisah
-2. John Machot
-3. Josheph Habah
+2.John Machot
+4. Josheph Habah
 Overview
 ex-Agri Optimizer is an AI-powered farm dashboard built with HTML, CSS, and JavaScript.
 It helps farmers and researchers monitor soil moisture, weather conditions, and crop health in real time, while providing AI-like farming recommendations for better decision-making.
@@ -64,22 +64,22 @@ _______________________________________________________
 # ex-Agri Optimizer
 **AI-Powered Dashboard for Real-Time Farm Analysis**
 
-## Overview
+# Overview
 ex-Agri Optimizer is a web dashboard for farmers that tracks soil, weather, and crop health while giving AI-like actionable recommendations.
 
-## Features
+# Features
 - Soil Moisture Monitoring with Chart.js
 - Weather Forecast (real or simulated)
 - Crop Health Tracking
 - AI-based Recommendations
 - Responsive Design
 
-## Tech Stack
+# Tech Stack
 - HTML, CSS, JavaScript
 - Chart.js
 - (Optional) FastAPI backend for real data
 
-## Setup
+# Setup
 ```bash
 git clone https://github.com/your-username/ex-agri-optimizer.git
 cd ex-agri-optimizer
@@ -87,13 +87,12 @@ python -m http.server 8080
 ```
 Then open: `http://127.0.0.1:8080`
 
-## Data Update
+# Data Update
 Dashboard refreshes every **3 minutes**:
 ```js
 setInterval(updateDashboard, 180000);
 ```
-
-## Future Plans
+# Future Plans
 - Integrate IoT sensors
 - Database storage & analytics
 - ML-based predictive farming insights
